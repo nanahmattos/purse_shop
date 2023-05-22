@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B A G U E T T E</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@500&family=Jost:wght@200;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h1>B A G U E T T E</h1>
+        <div class="menu-hamburguer">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        </div>
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li>
+                        <a href="#"> Sobre a loja</a>
+                    </li>
+                    <li>
+                        <a href="#" id="prod">Produtos</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container conteudo">
+        <main>
+            <section id="sobre-a-loja">                        
+                <div id="imagem">
+                    <img src="./imagens/bolsa4.jpg" alt="bolsa laranja"/>
+                </div>
+                <div>
+                    <h2>Sobre a loja</h2>
+                    <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. In harum ab est at voluptates accusamus eum cumque, quam architecto aperiam ipsa consequuntur veniam consequatur deserunt ipsam expedita, iste dignissimos. Illo.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui rem facilis dolore rerum tempore dolores magnam quas impedit officia itaque, doloremque quos alias molestiae cum deserunt atque accusamus, nihil numquam?
+                    </p>
+                </div>                   
+            </section>
+
+        <section id="produtos">
+        <h2>Produtos</h2>
+        <div class="produtos">            
+            <div class="produto">
+                <img src="./imagens/bolsa1.jpg" alt="bolsa azul">
+                <h3>Blue Moon</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, molestiae, minima 
+                </p>
+                <div id="price">
+                    <strong>R$ 3.900</strong>
+                </div>
+                <button type="button">Adicionar o carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/bolsa2.jpg" alt="bolsa azul">
+                <h3>Blue Moon</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, molestiae, minima 
+                </p>
+                <div id="price">
+                    <strong>R$ 3.900</strong>
+                </div>
+                <button type="button">Adicionar o carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/bolsa5.jpg" alt="bolsa azul">
+                <h3>Blue Moon</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, molestiae, minima 
+                </p>
+                <div id="price">
+                    <strong>R$ 3.900</strong>
+                </div>
+                <button type="button">Adicionar o carrinho</button>
+            </div>
+            <div class="produto">
+                <img src="./imagens/bolsa3.jpg" alt="bolsa azul">
+                <h3>Blue Moon</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, molestiae, minima 
+                </p>
+                <div id="price">
+                    <strong>R$ 3.900</strong>
+                </div>
+                <button type="button">Adicionar o carrinho</button>
+            </div>
+        </div>
+        </section>
+        </main>
+    </div>
+
+
+    <footer>
+        <div>
+            <p>
+                2023 &copy; Baguette - Todos os direitos reservados
+            </p>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.menu-hamburguer').click(function() {
+        $('nav').slideToggle();
+    })
+        })
+    </script>
+</body>
+</html>
